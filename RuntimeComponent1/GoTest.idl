@@ -1,0 +1,9 @@
+namespace RuntimeComponent1
+{
+    [default_interface]
+    runtimeclass GoTest
+    {
+		GoTest();
+        Int32 GoTestFunction(Int32 a);
+    }
+}
