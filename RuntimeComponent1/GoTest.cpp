@@ -25,7 +25,7 @@ namespace winrt::RuntimeComponent1::implementation
 
 		int result = goTestFunction(a);
 
-		FreeLibrary(goModule);
+		//FreeLibrary(goModule);
 
 		return result;
     }
